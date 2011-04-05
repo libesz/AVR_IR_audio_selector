@@ -1,0 +1,74 @@
+<AID Version="2.0.12.0" Device="ATmega8">
+  <Options>
+    <Frequency>8000000</Frequency>
+    <Package>TQFP</Package>
+    <PinSort>PinNumber</PinSort>
+    <CodeFileName>atmega48_audio_switch.c</CodeFileName>
+    <HeaderFileName>atmega48_audio_switch.h</HeaderFileName>
+    <AssumeDefaultState>True</AssumeDefaultState>
+    <WriteUnmodifiedBits>True</WriteUnmodifiedBits>
+    <UnusedPortPins>Input</UnusedPortPins>
+  </Options>
+  <Pin Pin="PD3" Function="PD3" />
+  <Pin Pin="PD4" Function="PD4" />
+  <Pin Pin="PD5" Function="PD5" />
+  <Pin Pin="PD6" Function="PD6" />
+  <Pin Pin="PD7" Function="PD7" />
+  <Pin Pin="PB4" Function="PB4" />
+  <Pin Pin="PB5" Function="PB5" />
+  <Pin Pin="PC0" Function="PC0" />
+  <Pin Pin="PC1" Function="PC1" />
+  <Pin Pin="PC2" Function="PC2" />
+  <Pin Pin="PC3" Function="PC3" />
+  <Pin Pin="PC4" Function="PC4" />
+  <Pin Pin="PC5" Function="PC5" />
+  <Pin Pin="PD1" Function="PD1" />
+  <Pin Pin="PD2" Function="PD2" />
+  <BitField BitField="CS0" Value="1" />
+  <BitField BitField="TOIE0" Value="1" />
+  <Bit Register="PORTB" Bit="PORTB4" Value="1" Pin="PB4" Function="PB4" />
+  <Bit Register="PORTB" Bit="PORTB5" Value="1" Pin="PB5" Function="PB5" />
+  <Bit Register="DDRB" Bit="DDB4" Value="0" Pin="PB4" Function="PB4" />
+  <Bit Register="DDRB" Bit="DDB5" Value="0" Pin="PB5" Function="PB5" />
+  <Bit Register="PORTC" Bit="PORTC0" Value="1" Pin="PC0" Function="PC0" />
+  <Bit Register="PORTC" Bit="PORTC1" Value="1" Pin="PC1" Function="PC1" />
+  <Bit Register="PORTC" Bit="PORTC2" Value="1" Pin="PC2" Function="PC2" />
+  <Bit Register="PORTC" Bit="PORTC3" Value="1" Pin="PC3" Function="PC3" />
+  <Bit Register="PORTC" Bit="PORTC4" Value="0" Pin="PC4" Function="PC4" />
+  <Bit Register="PORTC" Bit="PORTC5" Value="0" Pin="PC5" Function="PC5" />
+  <Bit Register="DDRC" Bit="DDC0" Value="0" Pin="PC0" Function="PC0" />
+  <Bit Register="DDRC" Bit="DDC1" Value="0" Pin="PC1" Function="PC1" />
+  <Bit Register="DDRC" Bit="DDC2" Value="0" Pin="PC2" Function="PC2" />
+  <Bit Register="DDRC" Bit="DDC3" Value="0" Pin="PC3" Function="PC3" />
+  <Bit Register="DDRC" Bit="DDC4" Value="0" Pin="PC4" Function="PC4" />
+  <Bit Register="DDRC" Bit="DDC5" Value="1" Pin="PC5" Function="PC5" />
+  <Bit Register="PORTD" Bit="PORTD1" Value="0" Pin="PD1" Function="PD1" />
+  <Bit Register="PORTD" Bit="PORTD2" Value="0" Pin="PD2" Function="PD2" />
+  <Bit Register="PORTD" Bit="PORTD3" Value="0" Pin="PD3" Function="PD3" />
+  <Bit Register="PORTD" Bit="PORTD4" Value="0" Pin="PD4" Function="PD4" />
+  <Bit Register="PORTD" Bit="PORTD5" Value="0" Pin="PD5" Function="PD5" />
+  <Bit Register="PORTD" Bit="PORTD6" Value="0" Pin="PD6" Function="PD6" />
+  <Bit Register="PORTD" Bit="PORTD7" Value="0" Pin="PD7" Function="PD7" />
+  <Bit Register="DDRD" Bit="DDD1" Value="1" Pin="PD1" Function="PD1" />
+  <Bit Register="DDRD" Bit="DDD2" Value="1" Pin="PD2" Function="PD2" />
+  <Bit Register="DDRD" Bit="DDD3" Value="1" Pin="PD3" Function="PD3" />
+  <Bit Register="DDRD" Bit="DDD4" Value="1" Pin="PD4" Function="PD4" />
+  <Bit Register="DDRD" Bit="DDD5" Value="1" Pin="PD5" Function="PD5" />
+  <Bit Register="DDRD" Bit="DDD6" Value="1" Pin="PD6" Function="PD6" />
+  <Bit Register="DDRD" Bit="DDD7" Value="1" Pin="PD7" Function="PD7" />
+  <Item Class="Port" Type="Variable" Name="INPUT6" Comment="Reserved for pin PB4" StartBit="4" NumBits="1" Pin="PB4" Function="PB4" />
+  <Item Class="Port" Type="Variable" Name="INPUT5" Comment="Reserved for pin PB5" StartBit="5" NumBits="1" Pin="PB5" Function="PB5" />
+  <Item Class="Port" Type="Variable" Name="INPUT4" Comment="Reserved for pin PC0" StartBit="0" NumBits="1" Pin="PC0" Function="PC0" />
+  <Item Class="Port" Type="Variable" Name="INPUT3" Comment="Reserved for pin PC1" StartBit="1" NumBits="1" Pin="PC1" Function="PC1" />
+  <Item Class="Port" Type="Variable" Name="INPUT2" Comment="Reserved for pin PC2" StartBit="2" NumBits="1" Pin="PC2" Function="PC2" />
+  <Item Class="Port" Type="Variable" Name="INPUT1" Comment="Reserved for pin PC3" StartBit="3" NumBits="1" Pin="PC3" Function="PC3" />
+  <Item Class="Port" Type="Variable" Name="IR_INPUT" Comment="" StartBit="4" NumBits="1" Pin="PC4" Function="PC4" />
+  <Item Class="Port" Type="Variable" Name="STATUSLED" Comment="Reserved for pin PC5" StartBit="5" NumBits="1" Pin="PC5" Function="PC5" />
+  <Item Class="Port" Type="Variable" Name="TXD" Comment="" StartBit="1" NumBits="1" Pin="PD1" Function="PD1" />
+  <Item Class="Port" Type="Variable" Name="OUTPUT6" Comment="Reserved for pin PD2" StartBit="2" NumBits="1" Pin="PD2" Function="PD2" />
+  <Item Class="Port" Type="Variable" Name="OUTPUT5" Comment="Reserved for pin PD3" StartBit="3" NumBits="1" Pin="PD3" Function="PD3" />
+  <Item Class="Port" Type="Variable" Name="OUTPUT4" Comment="Reserved for pin PD4" StartBit="4" NumBits="1" Pin="PD4" Function="PD4" />
+  <Item Class="Port" Type="Variable" Name="OUTPUT3" Comment="Reserved for pin PD5" StartBit="5" NumBits="1" Pin="PD5" Function="PD5" />
+  <Item Class="Port" Type="Variable" Name="OUTPUT2" Comment="Reserved for pin PD6" StartBit="6" NumBits="1" Pin="PD6" Function="PD6" />
+  <Item Class="Port" Type="Variable" Name="OUTPUT1" Comment="Reserved for pin PD7" StartBit="7" NumBits="1" Pin="PD7" Function="PD7" />
+</AID>
