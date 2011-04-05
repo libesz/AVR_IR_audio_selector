@@ -1,0 +1,14 @@
+This is a little AVR project which is an audio selector application, based on my InfraRed reciever library
+ (You can select the audio channel by buttons as well of course).
+
+Parts:
+-TSOP31233 IR reciever
+-ATmega8
+-UDN2981
+-6 relays for the quality
+-RCA connectors
+
+The IR library was designed to be portable, so you can use it for other purposes easily ( I hope :) ).
+
+See documentation at: http://libesz.digitaltrip.hu/
+
